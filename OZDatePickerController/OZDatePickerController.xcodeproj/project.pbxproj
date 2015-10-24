@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F69C0B081BDB142F007532B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69C0B071BDB142F007532B2 /* main.m */; };
+		F69C0B0B1BDB142F007532B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F69C0B0A1BDB142F007532B2 /* AppDelegate.m */; };
+		F69C0B0E1BDB142F007532B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69C0B0D1BDB142F007532B2 /* ViewController.m */; };
+		F69C0B111BDB142F007532B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C0B0F1BDB142F007532B2 /* Main.storyboard */; };
+		F69C0B131BDB142F007532B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69C0B121BDB142F007532B2 /* Assets.xcassets */; };
+		F69C0B161BDB142F007532B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69C0B141BDB142F007532B2 /* LaunchScreen.storyboard */; };
+		F69C0B251BDB233F007532B2 /* OZCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F69C0B211BDB233F007532B2 /* OZCycleScrollView.m */; };
+		F69C0B261BDB233F007532B2 /* OZDatePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F69C0B231BDB233F007532B2 /* OZDatePickerController.m */; };
+		F69C0B271BDB233F007532B2 /* OZDatePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69C0B241BDB233F007532B2 /* OZDatePickerController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F69C0B031BDB142F007532B2 /* OZDatePickerController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZDatePickerController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69C0B071BDB142F007532B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69C0B091BDB142F007532B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F69C0B0A1BDB142F007532B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F69C0B0C1BDB142F007532B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F69C0B0D1BDB142F007532B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F69C0B101BDB142F007532B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69C0B121BDB142F007532B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69C0B151BDB142F007532B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F69C0B171BDB142F007532B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69C0B201BDB233F007532B2 /* OZCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZCycleScrollView.h; sourceTree = "<group>"; };
+		F69C0B211BDB233F007532B2 /* OZCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZCycleScrollView.m; sourceTree = "<group>"; };
+		F69C0B221BDB233F007532B2 /* OZDatePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OZDatePickerController.h; sourceTree = "<group>"; };
+		F69C0B231BDB233F007532B2 /* OZDatePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OZDatePickerController.m; sourceTree = "<group>"; };
+		F69C0B241BDB233F007532B2 /* OZDatePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OZDatePickerController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69C0B001BDB142F007532B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F69C0AFA1BDB142F007532B2 = {
+			isa = PBXGroup;
+			children = (
+				F69C0B051BDB142F007532B2 /* OZDatePickerController */,
+				F69C0B041BDB142F007532B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F69C0B041BDB142F007532B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69C0B031BDB142F007532B2 /* OZDatePickerController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69C0B051BDB142F007532B2 /* OZDatePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				F69C0B091BDB142F007532B2 /* AppDelegate.h */,
+				F69C0B0A1BDB142F007532B2 /* AppDelegate.m */,
+				F69C0B0C1BDB142F007532B2 /* ViewController.h */,
+				F69C0B0D1BDB142F007532B2 /* ViewController.m */,
+				F69C0B0F1BDB142F007532B2 /* Main.storyboard */,
+				F69C0B1F1BDB233F007532B2 /* OZDatePickerController */,
+				F69C0B121BDB142F007532B2 /* Assets.xcassets */,
+				F69C0B141BDB142F007532B2 /* LaunchScreen.storyboard */,
+				F69C0B171BDB142F007532B2 /* Info.plist */,
+				F69C0B061BDB142F007532B2 /* Supporting Files */,
+			);
+			path = OZDatePickerController;
+			sourceTree = "<group>";
+		};
+		F69C0B061BDB142F007532B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69C0B071BDB142F007532B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F69C0B1F1BDB233F007532B2 /* OZDatePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				F69C0B201BDB233F007532B2 /* OZCycleScrollView.h */,
+				F69C0B211BDB233F007532B2 /* OZCycleScrollView.m */,
+				F69C0B221BDB233F007532B2 /* OZDatePickerController.h */,
+				F69C0B231BDB233F007532B2 /* OZDatePickerController.m */,
+				F69C0B241BDB233F007532B2 /* OZDatePickerController.xib */,
+			);
+			path = OZDatePickerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69C0B021BDB142F007532B2 /* OZDatePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69C0B1A1BDB142F007532B2 /* Build configuration list for PBXNativeTarget "OZDatePickerController" */;
+			buildPhases = (
+				F69C0AFF1BDB142F007532B2 /* Sources */,
+				F69C0B001BDB142F007532B2 /* Frameworks */,
+				F69C0B011BDB142F007532B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OZDatePickerController;
+			productName = OZDatePickerController;
+			productReference = F69C0B031BDB142F007532B2 /* OZDatePickerController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69C0AFB1BDB142F007532B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Stan;
+				TargetAttributes = {
+					F69C0B021BDB142F007532B2 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = F69C0AFE1BDB142F007532B2 /* Build configuration list for PBXProject "OZDatePickerController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69C0AFA1BDB142F007532B2;
+			productRefGroup = F69C0B041BDB142F007532B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69C0B021BDB142F007532B2 /* OZDatePickerController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69C0B011BDB142F007532B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69C0B271BDB233F007532B2 /* OZDatePickerController.xib in Resources */,
+				F69C0B161BDB142F007532B2 /* LaunchScreen.storyboard in Resources */,
+				F69C0B131BDB142F007532B2 /* Assets.xcassets in Resources */,
+				F69C0B111BDB142F007532B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69C0AFF1BDB142F007532B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69C0B0E1BDB142F007532B2 /* ViewController.m in Sources */,
+				F69C0B261BDB233F007532B2 /* OZDatePickerController.m in Sources */,
+				F69C0B251BDB233F007532B2 /* OZCycleScrollView.m in Sources */,
+				F69C0B0B1BDB142F007532B2 /* AppDelegate.m in Sources */,
+				F69C0B081BDB142F007532B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F69C0B0F1BDB142F007532B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69C0B101BDB142F007532B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69C0B141BDB142F007532B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69C0B151BDB142F007532B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69C0B181BDB142F007532B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F69C0B191BDB142F007532B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69C0B1B1BDB142F007532B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OZDatePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stan.OZDatePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F69C0B1C1BDB142F007532B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OZDatePickerController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stan.OZDatePickerController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69C0AFE1BDB142F007532B2 /* Build configuration list for PBXProject "OZDatePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69C0B181BDB142F007532B2 /* Debug */,
+				F69C0B191BDB142F007532B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69C0B1A1BDB142F007532B2 /* Build configuration list for PBXNativeTarget "OZDatePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69C0B1B1BDB142F007532B2 /* Debug */,
+				F69C0B1C1BDB142F007532B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69C0AFB1BDB142F007532B2 /* Project object */;
+}
