@@ -19,3 +19,5 @@ Then implement delegate Method:
 	
 	-(void)ozDatePciker:(OZDatePickerController *)picker didSelectedDate:(NSDate *)date;
 
+##License
+All source code is licensed under the [MIT License](https://raw.githubusercontent.com/StanOz/OZDatePickerController/master/LICENSE).
